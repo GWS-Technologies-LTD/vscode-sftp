@@ -67,12 +67,14 @@ const configScheme = {
       .items(Joi.string()),
     order: Joi.number(),
   },
+  kinsta: Joi.boolean()
 };
 
 const defaultConfig = {
   // common
   // name: undefined,
-  remotePath: './',
+  // remotePath: './',
+  kinsta: true,
   uploadOnSave: false,
   useTempFile: false,
   openSsh: false,
@@ -126,6 +128,14 @@ function getConfigPath(basePath) {
 }
 
 export function validateConfig(config) {
+
+  if(config.kinsta && !config.remotePath.includes(config.username)) {
+
+    vscode.window.showInformationMessage("Missing Remote Path for kinsta server: " + config.name);
+
+    return new Error("Missing Remote Path for kinsta server: " + config.name);
+  }
+
   const { error } = Joi.validate(config, configScheme, {
     allowUnknown: true,
     convert: false,
@@ -135,6 +145,7 @@ export function validateConfig(config) {
       },
     },
   });
+
   return error;
 }
 
@@ -190,6 +201,7 @@ export function newConfig(basePath) {
             uploadOnSave: false,
             useTempFile: false,
             openSsh: false,
+            kinsta: true
           },
           { spaces: 4 }
         )
