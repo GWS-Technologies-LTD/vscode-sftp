@@ -2,20 +2,20 @@
   "name": "sftp",
   "displayName": "SFTP",
   "description": "SFTP/FTP sync",
-  "version": "1.16.3",
-  "publisher": "Natizyskunk",
-  "author": "Natizyskunk <natan.fourie@hotmail.fr> (https://github.com/Natizyskunk)",
+  "version": "1.0.0",
+  "publisher": "Ashfaaq",
+  "author": "Ashfaaq Damree <ashfaaq.damree@shumatics.com>",
   "engines": {
     "vscode": "^1.64.2"
   },
   "bugs": {
-    "url": "https://github.com/Natizyskunk/vscode-sftp/issues",
-    "email": "natan.fourie@hotmail.fr"
+    "url": "https://github.com/GWS-Technologies-LTD/vscode-sftp/issues",
+    "email": "ashfaaq.damree@shumatics.com"
   },
-  "homepage": "https://github.com/Natizyskunk/vscode-sftp/blob/master/README.md",
+  "homepage": "https://github.com/GWS-Technologies-LTD/vscode-sftp/blob/master/README.md",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Natizyskunk/vscode-sftp.git"
+    "url": "https://github.com/GWS-Technologies-LTD/vscode-sftp.git"
   },
   "license": "MIT",
   "categories": [

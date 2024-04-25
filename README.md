@@ -1,3 +1,8 @@
+1. This repo is a fork from Natizyskunk.
+2. This has a special argument called kinsta. If set to true(default), it will check the username with the remote path. This ensures that the remote path isn't set to the absolute path and thus prevent a user to modify the core files via sftp.
+
+Releases: [VSIX release](https://github.com/GWS-Technologies-LTD/vscode-sftp/releases)
+
 # sftp sync extension for VS Code
 
 New maintained and updated version by [@Natizyskunk](https://github.com/Natizyskunk/) 😀 <!-- and [@satiromarra](https://github.com/satiromarra) --> <br>
