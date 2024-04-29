@@ -3,14 +3,14 @@
   "displayName": "SFTP",
   "description": "SFTP/FTP sync",
   "version": "1.0.0",
-  "publisher": "Ashfaaq",
-  "author": "Ashfaaq Damree <ashfaaq.damree@shumatics.com>",
+  "publisher": "GWSTechnologiesLtd",
+  "author": "Ashfaaq Damree <ashfaaq.damree@gws-technologies.com>",
   "engines": {
     "vscode": "^1.64.2"
   },
   "bugs": {
     "url": "https://github.com/GWS-Technologies-LTD/vscode-sftp/issues",
-    "email": "ashfaaq.damree@shumatics.com"
+    "email": "ashfaaq.damree@gws-technologies.com"
   },
   "homepage": "https://github.com/GWS-Technologies-LTD/vscode-sftp/blob/master/README.md",
   "repository": {
