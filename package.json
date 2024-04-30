@@ -1,6 +1,6 @@
 {
-  "name": "sftp",
-  "displayName": "SFTP",
+  "name": "sftp-gws",
+  "displayName": "SFTP SYNC",
   "description": "SFTP/FTP sync",
   "version": "1.0.0",
   "publisher": "GWSTechnologiesLtd",
